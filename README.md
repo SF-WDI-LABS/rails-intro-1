@@ -19,7 +19,7 @@ Ruby on Rails is one of the most commonly used libraries for building web applic
 
 - Articulate the Rails philosophy and the MVC pattern.
 - Start a Rails project with no database and create routes that render dynamic templates.
-- Distinguish between Express and Rails.
+- Distinguish between Express and Rails and identify their common pieces.
 
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
@@ -44,13 +44,15 @@ Rails values...
 
 Rails uses an __MVC__ architecture
 
-<b>M</b>odel - The model refers to the data objects that we use. It's the object oriented approach to design. The data in our database will be the most common type of object that we'll put there.
+<b>M</b>odel - The model refers to the data objects that we use. It's the object oriented approach to design. The data in our database will hold the objects that are the foundation of our application - the ones that are used throughout the application, that are CRUDed, and need to persist in memory.
 
-<b>V</b>iew - The view is the Presentation layer. It's what the user sees and interacts with, essentially the web pages. The HTML, the CSS and the JavaScript. The controller processes and responds to user events, such as clicking on links and submitting forms.
+<b>V</b>iew - The view is the Presentation layer. It's what the user sees and interacts with - the web pages. The HTML, the CSS and the JavaScript that creates interactivity. The controller processes and responds to user events, such as clicking on links and submitting forms.
 
 <b>C</b>ontroller - The controller will make decisions based on the request and then control what happens in response. It controls the interaction with our models and with our views.
 
 ![MVC Diagram](http://elibildner.files.wordpress.com/2012/06/screen-shot-2012-06-05-at-2-12-18-am.png)
+
+![MVC Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png)
 
 ## Railstaurant Metaphor
 The **client** is a customer eating in the restaurant, **rails** is the kitchen, the **request** is the food ordered, the **router** is the waiter, the **controller** is a chef, the **model** is a recipe, the **database** is the giant walk-in refrigerator with ingredients, the **view** is plating the dish to look pretty, the **response** with a file is a waiter finally serving the dish to the customer.
@@ -76,7 +78,14 @@ Bundler looks at the `Gemfile` and downloads all of the listed gems in addition 
     - activerecord is our ORM that manages our Models and our database, we'll learn more about that later
 - `cd` into your `rails-fun` folder and run
 - run `rails server` or just `rails s` and see what happens
-- This will start a server on `localhost:3000` head there and see what it says...
+- This will start a server on `localhost:3000` head there and see what it says!
+- Look through the file structure and consider the following questions:
+
+1. Where is the html for the page that you saw?
+1. What does the Gemfile remind you of from our full stack JS work?
+1. What might this strange looking `erb` stuff be?
+1. Where would be a logical place for database related information?
+1. Where would be a logical place for the testing files to live?
 
 ## Rails File Structure
 
