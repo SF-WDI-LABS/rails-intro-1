@@ -128,7 +128,7 @@ Wow, another error! `*Missing template welcome/index...*` Since we have a `welco
 `app/views/welcome/index.html.erb`
 
 ```html
-<h1>I make internets with Rails</h1>
+<h1>I build with Rails</h1>
 <img src="http://i.giphy.com/SPZFhfUJjsJO0.gif" alt="learning internet" style="width: 300px">
 ```
 Check out your root route one more time.
@@ -158,7 +158,7 @@ Create a new template with whatever name you like and get it to render on the pa
 Let's say we want to pass a random number to our view from 0-100... Try adding this to your html:
 
 ```html
-<h1>I make internets with Rails</h1>
+<h1>I build with Rails</h1>
 <p>Random number is... <%= Random.new.rand(100) %></p>
 <img src="http://i.giphy.com/SPZFhfUJjsJO0.gif" alt="learning internet" style="width: 300px">
 ```
