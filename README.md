@@ -76,8 +76,7 @@ Bundler looks at the `Gemfile` and downloads all of the listed gems in addition 
 - Create a new rails app with `rails new rails-fun --skip-activerecord`
     - the last flag tells the application not use activerecord
     - activerecord is our ORM that manages our Models and our database, we'll learn more about that later
-- `cd` into your `rails-fun` folder and run
-- run `rails server` or just `rails s` and see what happens
+- `cd` into your `rails-fun` folder and run `rails server` or just `rails s` and see what happens
 - This will start a server on `localhost:3000` head there and see what it says!
 - Look through the file structure and consider the following questions:
 
