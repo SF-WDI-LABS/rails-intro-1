@@ -63,7 +63,7 @@ The **client** is a customer eating in the restaurant, **rails** is the kitchen,
 
 `rails new NAME_OF_APP`
 
-This will launch a series of exciting events! Rails will construct a project in a directory with the project name that you just gave it. That project will include a standard set of folders and files that every Rails project has. At the end of process, Rails runs `bundle install`. That means Rails has is telling bundler to install all of the gems it will need to run the project.
+This will launch a series of exciting events! Rails will construct a project in a directory with the project name that you just gave it. That project will include a standard set of folders and files that every Rails project has. At the end of process, Rails runs `bundle install`. That means Rails is telling bundler to install all of the gems it will need to run the project.
 
 ## Bundler and Gems
 Bundler is like NPM. Gems are like node packages from NPM. Any gem you want to use in your project must be listed in your Gemfile (which is like the `package.json` file that NPM used). You have to run `bundle install` anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
