@@ -63,7 +63,7 @@ The **client** is a customer eating in the restaurant, **rails** is the kitchen,
 
 `rails new NAME_OF_APP`
 
-This will launch a series of exciting events! Rails will construct a project in a directory with the project name that you just gave it. That project will include a standard set of folders and files that every Rails project has. At the end of process, Rails runs `bundle install`. That means Rails has is telling bundler to install all of the gems it will need to run the project.
+This will launch a series of exciting events! Rails will construct a project in a directory with the project name that you just gave it. That project will include a standard set of folders and files that every Rails project has. At the end of process, Rails runs `bundle install`. That means Rails is telling bundler to install all of the gems it will need to run the project.
 
 ## Bundler and Gems
 Bundler is like NPM. Gems are like node packages from NPM. Any gem you want to use in your project must be listed in your Gemfile (which is like the `package.json` file that NPM used). You have to run `bundle install` anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
@@ -76,8 +76,7 @@ Bundler looks at the `Gemfile` and downloads all of the listed gems in addition 
 - Create a new rails app with `rails new rails-fun --skip-activerecord`
     - the last flag tells the application not use activerecord
     - activerecord is our ORM that manages our Models and our database, we'll learn more about that later
-- `cd` into your `rails-fun` folder and run
-- run `rails server` or just `rails s` and see what happens
+- `cd` into your `rails-fun` folder and run `rails server` or just `rails s` and see what happens
 - This will start a server on `localhost:3000` head there and see what it says!
 - Look through the file structure and consider the following questions:
 
@@ -208,7 +207,7 @@ Finally we can refactor the `welcome/index.html.erb` file so that it will use th
 ```
 Wooo, nice!
 
-##Challenge
+## Challenge
 
 * Create a new route: `/about` that with a `GET` request will hit the controller#action `welcome#about`.
 * Have `welcome#about` render a view in `welcome/about.html.erb`
