@@ -207,7 +207,7 @@ Finally we can refactor the `welcome/index.html.erb` file so that it will use th
 ```
 Wooo, nice!
 
-##Challenge
+## Challenge
 
 * Create a new route: `/about` that with a `GET` request will hit the controller#action `welcome#about`.
 * Have `welcome#about` render a view in `welcome/about.html.erb`
